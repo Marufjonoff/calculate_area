@@ -1,3 +1,3 @@
-## 0.0.1
+## 0.0.2
 
-Calculate rectangle area
+Calculate rectangle area new edit

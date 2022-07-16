@@ -22,7 +22,7 @@ class _CalculateAreaState extends State<CalculateArea> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              width: 100,
+              width: 200,
               height: 50,
               alignment: Alignment.center,
               decoration: BoxDecoration(
@@ -33,7 +33,7 @@ class _CalculateAreaState extends State<CalculateArea> {
             ),
 
             Container(
-              width: 100,
+              width: 200,
               height: 50,
               alignment: Alignment.center,
               decoration: BoxDecoration(
@@ -48,7 +48,7 @@ class _CalculateAreaState extends State<CalculateArea> {
         area != null ? const SizedBox(height: 50,) : const SizedBox.shrink(),
 
         area != null ? Container(
-          width: 100,
+          width: 200,
           alignment: Alignment.center,
           height: 50,
           decoration: BoxDecoration(
@@ -71,7 +71,7 @@ class _CalculateAreaState extends State<CalculateArea> {
             });
           },
           child: Container(
-            width: 100,
+            width: 200,
             height: 50,
             decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(12.0),
