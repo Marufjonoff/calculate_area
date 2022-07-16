@@ -24,21 +24,23 @@ class _CalculateAreaState extends State<CalculateArea> {
             Container(
               width: 100,
               height: 50,
+              alignment: Alignment.center,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12.0),
                   color: Colors.grey.shade300
               ),
-              child: Text(widget.a != null ? "${widget.a}" : "a = null"),
+              child: Text(widget.a != null ? "${widget.a}" : "a = null", style: const TextStyle(fontSize: 25),),
             ),
 
             Container(
               width: 100,
               height: 50,
+              alignment: Alignment.center,
               decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(12.0),
                   color: Colors.grey.shade300
               ),
-              child: Text(widget.b != null ? "${widget.b}" : "b = null"),
+              child: Text(widget.b != null ? "${widget.b}" : "b = null", style: const TextStyle(fontSize: 25),),
             ),
           ],
         ),
@@ -47,12 +49,13 @@ class _CalculateAreaState extends State<CalculateArea> {
 
         area != null ? Container(
           width: 100,
+          alignment: Alignment.center,
           height: 50,
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(12.0),
               color: Colors.grey.shade300
           ),
-          child: Text("Area: $area"),
+          child: Text("Area: $area", style: const TextStyle(fontSize: 25),),
         ) : const SizedBox.shrink(),
 
         const SizedBox(height: 50,),
@@ -74,7 +77,7 @@ class _CalculateAreaState extends State<CalculateArea> {
                 borderRadius: BorderRadius.circular(12.0),
                 color: Colors.grey.shade300
             ),
-            child: Text(widget.b != null ? "${widget.b}" : "b = null"),
+            child: const Text("Calculate area", style: TextStyle(fontSize: 25),),
           ),
         ),
       ],
